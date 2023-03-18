@@ -1,0 +1,50 @@
+table{
+    background-color:aqua;
+    border-collapse: collapse;
+    
+}
+
+tr,th,td {
+    
+    border:5px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    width: fit-content;
+}
+
+/* ol{
+    list-style-type: upper-roman; 
+    border-collapse: collapse;
+}
+li:nth-child(even){
+    color:aqua
+} */
+
+li a:hover
+{
+    background-color: aqua;
+}
+li{
+    float: left;
+    font-size: larger;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40%;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    color: blue;
+    padding: 20px;
+
+}
+
+
