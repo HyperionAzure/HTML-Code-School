@@ -1,0 +1,13 @@
+td{
+    border: 10xp solid black
+}
+
+table{
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+ul a:hover{
+    background-color: aqua;
+    border: 5px solid black;
+}
