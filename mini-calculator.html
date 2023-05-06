@@ -17,15 +17,28 @@
 
         <!-- Azi facem un calculator -->
         <script>
-            let primul_numar;
-            let doilea_numar;
+            let primul_numar = 0;
+            let doilea_numar = 0;
             let rezultat = 0;
             let operator;
-            
+            let citire = 0
+            while(citire == 0)
+            {
+                citire=0
+                primul_numar = parseFloat(prompt("primul_nr"));
+                operator = prompt("Alege operatia dorita");
+                doilea_numar = parseFloat(prompt("doilea_nr"));
 
-            primul_numar = parseFloat(prompt("primul_nr"));
-            operator = prompt("Alege operatia dorita");
-            doilea_numar = parseFloat(prompt("doilea_nr"));
+                if (typeof primul_numar ==="number" && typeof doilea_numar ==="boolean")
+                {
+                    window.alert("ERROR_CHARACTER_DETECTED")
+                }
+                else{
+                    citire = 1
+                }
+                
+            }
+
 
            
 
