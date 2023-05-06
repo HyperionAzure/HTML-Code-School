@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+
+    <body>
+        <h1 id="rezultat">
+        
+        </h1>
+        
+       
+
+
+        <!-- Azi facem un calculator -->
+        <script>
+            let primul_numar;
+            let doilea_numar;
+            let rezultat = 0;
+            let operator;
+            
+
+            primul_numar = parseFloat(prompt("primul_nr"));
+            operator = prompt("Alege operatia dorita");
+            doilea_numar = parseFloat(prompt("doilea_nr"));
+
+           
+
+            if(operator == "+")
+            {
+                rezultat = primul_numar + doilea_numar;
+            }
+            else if(operator == "-")
+            {
+                rezultat = primul_numar - doilea_numar;
+            }
+            else if(operator == "/")
+            {
+                rezultat = primul_numar / doilea_numar;
+            }
+            else
+            {
+                rezultat = primul_numar * doilea_numar;
+            }
+           
+            document.getElementById("rezultat").innerHTML = `rezultatul este ${rezultat}`
+            
+        </script>
+            
+
+     </body>
+</html>
