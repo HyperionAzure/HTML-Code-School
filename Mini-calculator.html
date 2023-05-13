@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+
+    <body>
+        <h1 id="rezultat">
+        
+        </h1>
+        
+       
+
+
+        <!-- Azi facem un calculator -->
+        <script>
+            let primul_numar = 0;
+            let doilea_numar = 0;
+            let rezultat = 0;
+            let operator;
+            let citire = 0
+            while(citire == 0)
+            
+
+            {
+                citire=0
+                primul_numar = parseFloat(prompt("primul_nr"));
+                operator = prompt("Alege operatia dorita");
+                doilea_numar = parseFloat(prompt("doilea_nr"));
+
+                if (typeof(primul_numar) != "number" && typeof(doilea_numar) != "number")
+                {
+                    window.alert("ERROR_CHARACTER_DETECTED")
+                }
+                else{
+                    citire = 1
+                }
+
+
+              
+                
+            }
+
+
+           
+
+            if(operator == "+")
+            {
+                rezultat = primul_numar + doilea_numar;
+            }
+            else if(operator == "-")
+            {
+                rezultat = primul_numar - doilea_numar;
+            }
+            else if(operator == "/")
+            {
+                rezultat = primul_numar / doilea_numar;
+            }
+            else
+            {
+                rezultat = primul_numar * doilea_numar;
+            }
+                document.write(rezultat); //pentru afisare in html
+                window.alert(rezultat); //pt afisare ca si alerta
+
+            document.getElementById("rezultat").innerHTML = `rezultatul este ${rezultat}`
+            
+        </script>
+            
+
+     </body>
+</html>
