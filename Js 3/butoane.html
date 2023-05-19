@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<HTML>
+
+    <head>
+        <link rel="stylesheet" href="js3.css">
+        <title>  butoane  </title>
+    </head>
+
+    <body>
+        <ul class="meniu">
+            <li>
+                <a href="pg_principala.html">
+                    pagina principala
+                </a>
+            </li>
+            <li>
+                <a href="galerie.html">
+                  galerie
+                </a>
+            </li>
+            <li>
+                <a href="butoane.html">
+                 butoane
+                </a>
+            </li>
+        </ul>
+
+
+        <h2>
+            aiciea aparea o surpriza dupa apasarea butonului rosu
+        </h2>
+
+
+        <button type="button" onclick="document.getElementById('data').innerHTML=Date()">
+            click aici pt data
+        </button>
+
+        <h1 id="data">
+            aiciea aparea ora si data dupa apasarea butonului verde
+        </h1>
+
+        <button type="button" onclick='Disparitie()'>
+            apasa pt disparitie
+        </button>
+
+        <h3 id="Disparitie">
+            aiciea aparea o alta surpriza dupa apasarea butonului galben
+        </h3>
+
+            <script>
+                function Disparitie()
+                {
+                    document.getElementById('Disparitie').innerHTML =" ";
+                }
+
+
+
+
+
+
+
+            </script>
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</HTML>
