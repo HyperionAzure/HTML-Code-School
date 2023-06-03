@@ -1,0 +1,13 @@
+table,tr,td{
+    border: solid 4px blueviolet;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* button{
+    font-size: large;
+    border: solid 4px azure;
+} */
+

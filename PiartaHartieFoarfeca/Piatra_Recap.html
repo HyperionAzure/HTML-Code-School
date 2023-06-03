@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Piatra.Hartie.Foarfeca.Pistol.Pisica (V2.0)
+    </title>
+    <link rel="stylesheet" href="PHFPP.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>
+                Primul player Alege:
+            </th>
+        
+            <th>
+                Doilea player Alege:
+            </th>
+        </tr>
+
+        <tr>
+            <td id="primul1">
+                -
+            </td>
+            <td id="doilea2">
+                -
+            </td>
+
+
+        </tr>
+        <tr>
+            <td>
+            <button type="button" onclick="Puterea_1 = 'Hartia'">
+                🧻Hartie
+            </button>
+
+            <button type="button" onclick="Puterea_1 = 'Foarfeca'">
+                ✂️Foarfeca
+            </button>
+
+            <button type="button" onclick="Puterea_1 = 'Piatra'">
+                🪨Piatra
+            </button>
+
+        </td>
+
+        <td>
+            <button type="button" onclick="Puterea_2 = 'Hartia'">
+                🧻Hartie
+            </button>
+
+            <button type="button" onclick="Puterea_2 = 'Foarfeca'">
+                ✂️Foarfeca
+            </button>
+
+            <button type="button" onclick="Puterea_2 = 'Piatra'">
+                🪨Piatra
+            </button>
+
+        </td>
+        </tr>
+
+
+        <tr class="Castigator">
+            <td colspan="2">
+                <button type="button"
+            onclick='verificare()'>apasa-ma ca sa afli Castigatorul</button>
+
+            </td>
+        </tr>
+
+        <script>
+            let Puterea_1 = ' ';
+            let Puterea_2 = ' ';
+
+            function verificare()
+            {
+                document.getElementById('primul1').innerHTML=Puterea_1;
+                document.getElementById('doilea2').innerHTML=Puterea_2;
+            }
+        </script>
+    </table>
+</body>
+
+
+
+</html>
