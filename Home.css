@@ -1,0 +1,11 @@
+.ContainerMeniu{
+    text-align: center;
+    background: bisque;
+}
+.ContainerMeniu .Meniu{
+    display: flex;
+    position: relative;
+}
+.ContainerMeniu .Meniu li{
+    flex: 1;
+}
