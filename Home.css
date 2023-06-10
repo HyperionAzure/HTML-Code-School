@@ -1,6 +1,7 @@
 .ContainerMeniu{
     text-align: center;
     background: bisque;
+    box-shadow: 10px 10px 5px 0px rgba(38,19,245,1);
 }
 .ContainerMeniu .Meniu{
     display: flex;
@@ -8,4 +9,5 @@
 }
 .ContainerMeniu .Meniu li{
     flex: 1;
+    font-size: 50px;
 }
